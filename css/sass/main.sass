@@ -1,7 +1,9 @@
 @import "bourbon/bourbon"
 
 body
-	font-family: "Raleway", sans-serif
+	margin: 0 auto
+	width: 1280px
+	font-family: "Arial", sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
@@ -18,3 +20,119 @@ body textarea:required:valid
 
 .hidden
 	display: none
+
+$blue-color: #445161
+
+h1
+	margin: 0
+	font-family: Arial, sans-serif
+	font-weight: normal
+	font-size: 60px
+	line-height: 60px
+	color: #fff
+
+h2
+	margin: 0
+	font-family: Arial, sans-serif
+	font-weight: normal
+	font-size: 30px
+	color: $blue-color
+	line-height: 36px
+
+h3
+	margin: 0
+	font-family: Arial, sans-serif
+	font-weight: normal
+	font-size: 24px
+	color: $blue-color
+	line-height: 30px
+
+h4
+	margin: 0
+	font-family: Arial, sans-serif
+	font-weight: normal
+	font-size: 20px
+	color: #ffffff
+	line-height: 36px
+
+p
+	font-family: Arial, sans-serif
+	font-size: 16px
+	color: #333
+	line-height: 24px
+
+section
+	padding: 40px 50px 50px 50px
+
+header
+	height: 323px
+	padding: 50px
+	background-color: $blue-color
+	.item
+		margin-top: 30px
+		i
+			margin-right: 15px
+	.left_side
+		display: inline-block
+	.right_side
+		height: 214px
+		width: 469px
+		float: right
+		display: inline-block
+		background: #FFF
+
+.about
+	padding-top: 50px
+	height: 345px
+	.left_side
+		display: inline-block
+		width: 577px
+	.right_side
+		height: 245px
+		width: 430px
+		float: right
+		display: inline-block
+		background: $blue-color
+
+.product
+	height: 417px
+	background: #f5f5f5
+	h2
+		text-align: center
+		margin-bottom: 30px
+	i
+		margin-right: 9px
+		padding: 0 8px 0 7px
+		background: $blue-color
+		width: 32px
+		height: 32px
+		font-size: 29px
+		color: #fff
+	.icon
+		float: left
+	p
+		padding-right: 10px
+		font-size: 16px
+		margin: 0
+	.text
+		margin-bottom: 25px
+		float: left
+		width: 549px
+
+.screenshots
+	height: 487px
+	h2
+		margin-bottom: 30px
+		text-align: center
+	p
+		margin: 10px 0 0 0
+	.image
+		float: left
+		width: 200px
+		height: 150px
+		background: $blue-color
+		margin-right: 15px
+	.text
+		min-height: 180px
+		float: left
+		width: 359px
