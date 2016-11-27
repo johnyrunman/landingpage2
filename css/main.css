@@ -358,3 +358,24 @@ footer .soc i {
   color: #fff;
   font-size: 26px;
 }
+
+.arrow {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11.5px 12px 11.5px 0;
+  border-color: transparent #ebebeb transparent transparent;
+}
+
+.data {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  background: #ebebeb;
+}
