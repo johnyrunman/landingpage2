@@ -196,15 +196,7 @@ header .right_side {
   width: 75px;
   height: 75px;
   background: #445161;
-  margin: 0 16px 0 16px;
-}
-
-.reviews .review {
-  float: left;
-  margin-bottom: 24px;
-  min-height: 121px;
-  width: 483px;
-  background: #ebebeb;
+  margin: 0 16px 0 0;
 }
 
 .reviews p {
@@ -344,11 +336,12 @@ footer .soc {
   width: 300px;
   height: 300px;
   float: left;
+  margin-left: 45px;
 }
 
 footer .soc p {
   vertical-align: bottom;
-  margin: 0 0 0 46px;
+  margin: 0 0 0 0;
   color: #fff;
   font-size: 16px;
   line-height: 16px;
@@ -359,11 +352,25 @@ footer .soc i {
   font-size: 26px;
 }
 
+footer .soc .socials-buttons {
+  margin-top: 32px;
+}
+
+footer .soc .fa-stack-1x {
+  font-size: 42px;
+}
+
+footer .soc .fa-stack-2x {
+  color: #445161;
+  font-size: 20px;
+  line-height: 38px;
+}
+
 .arrow {
   float: left;
   padding: 0;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 27px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -373,9 +380,8 @@ footer .soc i {
 
 .data {
   float: left;
-  padding: 0;
-  margin: 0;
-  width: 150px;
-  height: 150px;
+  margin: 0 35px 24px 0;
+  width: 452px;
+  min-height: 121px;
   background: #ebebeb;
 }
